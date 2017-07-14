@@ -1,1 +1,29 @@
 /* YeyeYeee código aquí */
+body {
+	background-color: #2f3032;
+}
+
+.logo img {
+	width: 100px;
+	margin-top: 20px;
+}
+
+.olvido a {
+	margin-top: 20px;
+}
+
+.input-field {
+    color: white;
+}
+
+.input-field label {
+     color: #dc8b09;
+}
+
+.input-field .prefix {
+     color: #dc8b09;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #dc8b09;
+}
