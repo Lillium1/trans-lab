@@ -1,0 +1,25 @@
+body {
+	background-color: #d5d6d9;
+}
+
+/*----------* MENU *----------*/
+
+nav i, nav i.material-icons {
+    font-size: 30px;
+}
+
+#nav-color {
+	background-color: #2f3032;
+}
+
+#home-btn {
+	margin-top: 80px;
+}
+
+.side-nav {
+	padding-top: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+/*----------* VER SALDO *----------*/
+
+
