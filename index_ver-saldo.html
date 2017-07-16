@@ -8,15 +8,62 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- FRAMEWORK MATERIALIZE -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-	<!-- ICONOS -->
-	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
+	<!-- ICONOS MATERIALIZE -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- TIPOGRAFIA -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- CSS -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_verSaldo.css">
 </head>
 <body>
-	
+	<header>
+		<nav id="nav-color">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center white-text">TRANS-LAB</a>
+				<!-- SIDE NAV-->
+				<ul id="slide-out" class="side-nav">
+					<li><a href="index_ver-saldo.html"><i class="material-icons amber-text text-darken-2">attach_money</i>Ver saldo</a></li>
+					<li><a href="index_calcular-tarifa.html"><i class="material-icons amber-text text-darken-2">apps</i>Calcular Tarifa</a></li>
+					<li><a href="index_perfil.html"><i class="material-icons amber-text text-darken-2">person</i>Perfil</a></li>
+					<li><a href="index_preg-frecuentes.html"><i class="material-icons amber-text text-darken-2">receipt</i>Preguntas frecuentes</a></li>
+					<li><a href="index_home.html"><i class="material-icons amber-text text-darken-4">trending_flat</i>Home</a></li>
+				</ul>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">list</i></a>
+			</div>
+		</nav>	
+	</header>
+
+	<section id="verSaldo">
+		<div class="container">
+			<!-- TARJETA NUEVA-->
+			<div class="row">
+				<form>
+					<div class="input-field col s12">
+						<input id="numTarj_perfil" type="text" class="validate">
+						<label for="numTarj_perfil" class="input-numTarj_perfil">Número tarjeta</label>
+					</div>
+				</form>
+			</div>
+			<!-- SELECT-->
+			<div class="row">
+				<div class="input-field col s12">
+					<select>
+					<option value="" disabled selected>Escoge número de tarjeta</option>
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+						<option value="3">Option 3</option>
+					</select>
+					<label>Número de tarjetas guardadas</label>
+				</div>
+			</div>
+			<!-- BTN VER SALDO-->
+			<div class="row">
+				<div class="col s10 offset-s1 center">
+					<a href="#" class="waves-effect waves-light btn btn-tarj">VER SALDO</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
