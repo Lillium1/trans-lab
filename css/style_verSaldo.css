@@ -22,4 +22,7 @@ nav i, nav i.material-icons {
 }
 /*----------* VER SALDO *----------*/
 
-
+.btn-tarj {
+	width: 100%;
+	background-color: #dc8b09;
+}
